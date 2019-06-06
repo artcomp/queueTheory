@@ -90,9 +90,9 @@ def main():
 	ew = EW(p9 , m, mi, p)
 	print("E[w] : %f " % ew)
 
-	q = 95
+	q = 95.001
 	q_w_90 = q_percentil_TEMPO_DE_RESPOSTA(q, p, ew, p9)
-	print("Q percentil (%i) : %f " % (q,q_w_90))
+	print("Q percentil (%f) : %f " % (q,q_w_90))
 
 
 if __name__ == '__main__':
